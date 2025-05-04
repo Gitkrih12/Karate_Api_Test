@@ -22,7 +22,6 @@ jobs:
         run: mvn clean test
 
       - name: Upload HTML report
-        #uses: actions/upload-artifact@v3.1.3
         uses: actions/upload-artifact@v2
         with:
           name: karate-html-report
