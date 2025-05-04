@@ -1,29 +1,28 @@
-name: Karate API Tests with HTML Report
+name: Karate API Tests with Report Upload
 
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  run-karate-tests:
+  test:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: Set up Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          distribution: temurin
+          java-version: 17
 
       - name: Run Karate tests
-        run: |
-          mvn clean test
+        run: mvn clean test
 
-      - name: Upload Karate HTML report
-        uses: actions/upload-artifact@v3
+      - name: Upload HTML report
+        uses: actions/upload-artifact@v3.1.3
         with:
-          name: karate-reports
+          name: karate-html-report
           path: target/karate-reports/
