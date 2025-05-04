@@ -1,4 +1,4 @@
-name: Karate API Tests
+name: Karate API Tests with HTML Report
 
 on:
   push:
@@ -21,3 +21,9 @@ jobs:
       - name: Run Karate tests
         run: |
           mvn clean test
+
+      - name: Upload Karate HTML report
+        uses: actions/upload-artifact@v3
+        with:
+          name: karate-reports
+          path: target/karate-reports/
