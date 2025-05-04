@@ -1,0 +1,22 @@
+{
+  "TokenKey": "CAPVVALOR",
+  "SearchParameters": [
+    {
+      "FieldName": "LastName",
+      "FieldValue": ""
+    },
+    {
+      "FieldName": "FirstName",
+      "FieldValue": ""
+    }
+  ],
+  "FilterSearchParameters": null,
+  "PaginationOption": {
+    "pageLimit": 100,
+    "pageOffset": 0
+  },
+  "SortOption": {
+    "columnName": "lastname",
+    "sortOrder": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "TokenKey": "CAPVVALOR",
+  "SearchParameters": [
+    {
+      "fieldName": "FacilityName",
+      "fieldValue": "CHV Home Medical Equipment Company"
+    }
+  ],
+  "FilterSearchParameters": [
+    {
+      "fieldName": "FacilityName",
+      "fieldValue": "CHV Home Medical Equipment Company"
+    }
+  ],
+  "PaginationOption": {
+    "pageLimit": 10,
+    "pageOffset": 0
+  },
+  "SortOption": {
+    "columnName": "Facilityname",
+    "sortOrder": 0
+  }
+}

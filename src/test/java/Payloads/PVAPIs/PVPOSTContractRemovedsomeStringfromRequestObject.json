@@ -1,0 +1,16 @@
+[
+  {
+    "TokenKey": "CAPVVALOR",
+    "ClaimID": "81297",
+    "ServiceLineID": "1",
+    "NPI": "8876210874",
+    "FirstName": null,
+    "LastName": null,
+    "LocationAddressLine1": null,
+    "LocationAddressLine2": null,
+    "LocationCity": null,
+    "LocationState": null,
+    "LocationZipCode": null,
+    "TaxIdOrSSN": "249411735"
+  }
+]

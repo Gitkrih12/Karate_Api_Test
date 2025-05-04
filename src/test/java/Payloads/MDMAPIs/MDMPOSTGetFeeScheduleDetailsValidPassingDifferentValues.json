@@ -1,0 +1,15 @@
+{
+  "TokenKey": "MDMGENERIC",
+  "FeeScheduleInput": [
+    {
+      "CPTCODE": "0001U",
+      "ZIPCODE": "91701",
+      "DOS": "2021-04-01"
+    },
+    {
+      "CPTCODE": "A0100",
+      "ZIPCODE": "91701",
+      "DOS": "2021-04-11"
+    }
+  ]
+}

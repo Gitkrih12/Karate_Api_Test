@@ -1,0 +1,21 @@
+[
+        {
+                "MemberDetailsMemberID": "0533336VF",
+                "MemberDetailsDOS": "2019-03-01",
+                "MemberInfoSubscriberID": "0003336VF",
+                "HospiceInfoSubscriberID": "3553336VF",
+                "HospiceInfoDOS": "2020-10-10T00:00:00"
+        },
+
+        {
+                "GetVendorByUniqueVendorIdOrTaxIdOrPayToIdUniqueVendorId": "V0000000002",
+                "GetVendorByUniqueVendorIdOrTaxIdOrPayToIdTaxid": "662519353",
+                "GetVendorByUniqueVendorIdOrTaxIdOrPayToIdUniquePaytoId": "VEN00000045",
+                "GetProviderProfileByIdprofileId": "9292",
+                "GetProviderProfileByIdUniqueProviderId": "PRO000000012"
+        },
+        {
+                "GetCPTDetailsCptCode": "0001U",
+                "GetCitiesDetailsCityName": "Clearwater"
+        }
+]

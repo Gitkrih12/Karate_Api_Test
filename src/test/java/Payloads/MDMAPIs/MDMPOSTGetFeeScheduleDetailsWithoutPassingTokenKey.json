@@ -1,0 +1,14 @@
+{
+  "FeeScheduleInput": [
+    {
+      "CPTCODE": "A0428",
+      "ZIPCODE": "14590",
+      "DOS": "2021-04-11"
+    },
+    {
+      "CPTCODE": "A0100",
+      "ZIPCODE": "91701",
+      "DOS": "2021-04-11"
+    }
+  ]
+}

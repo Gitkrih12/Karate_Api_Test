@@ -1,0 +1,23 @@
+{
+  "TokenKey": "CAPVVALOR",
+  "SearchParameters": [
+    {
+      "fieldName": "FacilityName",
+      "fieldValue": "ACTION POTENTIAL LLC"
+    }
+  ],
+  "FilterSearchParameters": [
+    {
+      "fieldName": "FacilityName",
+      "fieldValue": "ACTION POTENTIAL LLC"
+    }
+  ],
+  "PaginationOption": {
+    "pageLimit": 10,
+    "pageOffset": 0
+  },
+  "SortOption": {
+    "columnName": "Facilityname",
+    "sortOrder": 0
+  }
+}

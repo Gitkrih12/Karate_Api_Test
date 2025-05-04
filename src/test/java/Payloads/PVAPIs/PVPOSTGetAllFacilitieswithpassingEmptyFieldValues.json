@@ -1,0 +1,45 @@
+{
+
+  "TokenKey": "CAPVVALOR",
+
+  "SearchParameters": [
+
+    {
+
+      "fieldName": "",
+
+      "fieldValue": ""
+
+    }
+
+  ],
+
+  "FilterSearchParameters": [
+
+    {
+
+      "fieldName": "",
+
+      "fieldValue": ""
+
+    }
+
+  ],
+
+  "PaginationOption": {
+
+    "pageLimit": 0,
+
+    "pageOffset": 0
+
+  },
+
+  "SortOption": {
+
+    "columnName": "",
+
+    "sortOrder": 0
+
+  }
+
+}

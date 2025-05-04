@@ -1,0 +1,12 @@
+{
+  "paymentPolicyIndicatorInput": [
+    {
+      "cptCode": "0001F",
+      "dos": "2020-04-10"
+    },
+    {
+      "cptCode": "00100",
+      "dos": "2020-04-10"
+    }
+  ]
+}

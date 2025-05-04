@@ -1,0 +1,22 @@
+{
+  "TokenKey": "CAPVALOZ",
+  "SearchParameters": [
+    {
+      "FieldName": "LastName",
+      "FieldValue": "A Dela Paz"
+    },
+    {
+      "FieldName": "FirstName",
+      "FieldValue": "Tala"
+    }
+  ],
+  "FilterSearchParameters": null,
+  "PaginationOption": {
+    "pageLimit": 100,
+    "pageOffset": 0
+  },
+  "SortOption": {
+    "columnName": "lastname",
+    "sortOrder": 1
+  }
+}
