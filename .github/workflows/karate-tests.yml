@@ -1,0 +1,28 @@
+name: Karate API Tests with Advanced Report
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Run Karate tests with Cucumber Report
+        run: mvn clean test -Dkarate.options="--plugin html:target/cucumber-html-report"
+
+      - name: Upload Cucumber HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report
+          path: target/cucumber-html-report/
