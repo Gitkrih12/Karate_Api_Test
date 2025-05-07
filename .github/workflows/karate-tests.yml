@@ -1,4 +1,4 @@
-name: Karate API Tests with Advanced Report
+name: Karate API Tests with Report Upload
 
 on:
   push:
@@ -18,11 +18,11 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Run Karate tests with Cucumber Report
-        run: mvn clean test -Dkarate.options="--plugin html:target/cucumber-html-report"
+      - name: Run Karate tests
+        run: mvn clean test
 
-      - name: Upload Cucumber HTML report
+      - name: Upload HTML report
         uses: actions/upload-artifact@v4
         with:
-          name: cucumber-html-report
-          path: target/cucumber-html-report/
+          name: karate-html-report
+          path: target/karate-reports/
